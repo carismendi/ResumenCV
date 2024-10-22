@@ -29,6 +29,17 @@
     },
     "work": [
       {
+        "name": "Atomic Kitchens",
+        "position": "Analista\\Consultor de Desarrollo",
+        "url": "https://www.atomickitchens.tech/es",
+        "startDate": "04-01-2021",
+        "endDate": null,
+        "summary": "Franquicia digital de restaurantes más grande de América Latina, empoderando a más de 700 cocinas para optimizar sus recursos existentes operando nuestras marcas Atomic. <br/> Desarrollo de diferentes páginas para Atomic, con el framework Laravel y técnologías como Vuejs y React",
+        "highlights": [
+          "Started the company"
+        ]
+      },
+      {
         "name": "ENSO",
         "position": "Analista\\Consultor de Desarrollo",
         "url": "https://company.com",
