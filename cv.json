@@ -1,0 +1,282 @@
+{
+    "basics": {
+      "name": "Carlos Arismendi",
+      "label": "FullStack Developer / Desarrollo de software",
+      "image": "",
+      "email": "cearismendi@gmail.com",
+      "phone": "+58 412-1260106",
+      "url": "https://www.linkedin.com/in/carlosarismendi/",
+      "summary": "Full Stack Developer con más de 15 años de experiencia. Habilidad para el análisis y desarrollo de proyectos. Creación de informes semanales, entrega de documentos de visión y alcance, desarrollo de cronogramas. Aprendizaje rápido de diferentes lenguajes de programación y tecnologías.",
+      "location": {
+        "address": "Mérida",
+        "postalCode": "5111 Ejido",
+        "city": "Mérida",
+        "countryCode": "VE",
+        "region": "Edo. Mérida"
+      },
+      "profiles": [
+        {
+          "network": "LinkedIn",
+          "username": "carlosarismendi",
+          "url": "https://www.linkedin.com/in/carlosarismendi/"
+        },
+        {
+          "network": "GitHub",
+          "username": "carismendi",
+          "url": "https://github.com/carismendi"
+        }
+      ]
+    },
+    "work": [
+      {
+        "name": "ENSO",
+        "position": "Analista\\Consultor de Desarrollo",
+        "url": "https://company.com",
+        "startDate": "05-01-2020",
+        "endDate": null,
+        "summary": "Desarrollo de página web para inscripción de profesores y alumnos para UNO (Universidad Nacional Obrera). <br/>Desarrollo de página web para control de inventarios con Laravel y MySql y aplicación de escritorio con Electron.",
+        "highlights": [
+          "Started the company"
+        ]
+      },
+      {
+        "name": "Shopy21",
+        "position": "Analista\\Consultor de Desarrollo",
+        "url": "https://company.com",
+        "startDate": "09-01-2019",
+        "endDate": "05-01-2020",
+        "summary": "Desarrollo de aplicación de compra/venta de cualquier tipo de productos para Android/IOS. El desarrollo está implementado con React Native, NodeJS y base de datos Postgresql",
+        "highlights": [
+          "Started the company"
+        ]
+      },
+      {
+        "name": "ComparaCorredores",
+        "position": "Analista\\Consultor de Desarrollo",
+        "url": "https://company.com",
+        "startDate": "10-01-2017",
+        "endDate": "04-01-2019",
+        "summary": "Desarrollo y mantenimiento de registro de propietarios y/o corredores en plataforma para gestionar ventas y arriendos de casas, apartamentos, parcelas u otros. El desarrollo es efectuado fundamentalmente con CodeIgniter/Mysql y otras tecnologías o plugins destacando principalmente el uso de Vuejs.",
+        "highlights": [
+          "Started the company"
+        ]
+      },
+      {
+        "name": "Freelance",
+        "position": "Analista\\Consultor de Desarrollo",
+        "url": "https://company.com",
+        "startDate": "03-01-2017",
+        "endDate": "09-01-2017",
+        "summary": "Desarrollo y mantenimiento de sitio web de noticias variadas, publicación directa en redes sociales, gestor de imágenes y tiempo de publicación desarrollado con el Framework Yii y base de datos Mysql. <br/>Desarrollo de juego Cinco Amarillo: pequeño videojuego de mesa para PlayStore desarrollado en Unity que funciona para diferentes plataformas, creación de imágenes, animación, movimientos de piezas de juego, la lógica de desarrollo fue implementada en C#",
+        "highlights": [
+          "Started the company"
+        ]
+      },
+      {
+        "name": "TYM",
+        "position": "Analista\\Consultor de Desarrollo",
+        "url": "https://company.com",
+        "startDate": "05-01-2015",
+        "endDate": "02-01-2017",
+        "summary": "Proyecto de Desarrollo de aplicaciones para el Partido Socialista Obrero Español (PSOE. Desarrollo de diferentes aplicaciones desarrolladas en .NET y el ambiente de trabajo fue implementado mediante una conexión VPN con una maquina virtual de VMWare con Windows server 2012 y SQL Server",
+        "highlights": [
+          "Started the company"
+        ]
+      },
+      {
+        "name": "Call & Call Mercadeo Directo C.A.",
+        "position": "Jefe de Desarrollo",
+        "url": "https://company.com",
+        "startDate": "04-01-2014",
+        "endDate": "03-01-2015",
+        "summary": " Planicación, modelado y desarrollo de sistema de encuestas, tickets, y gestión de eventos adversos y reclamos de productos farmacéuticos. <br/>Realizar un sistema que permita adaptarse a cualquier tipo de encuesta que se necesite, construcción dinámica de encuestas, desarrollo de control de usuarios, tipicaciones de encuestas, envío de correos, reportes, todo efectuado bajo el framework de php Yii, MVC y base de datos postgresql",
+        "highlights": [
+          "Started the company"
+        ]
+      },
+      {
+        "name": "Cenditel (Fundación Centro Nacional de Desarrollo e Investigación en Tecnologías Libres)",
+        "position": "Analista\\Consultor de Desarrollo",
+        "url": "https://company.com",
+        "startDate": "06-01-2013",
+        "endDate": "12-01-2013",
+        "summary": "Proyecto de Desarrollo de la plataforma y componentes para los sistemas SIGESIC y Mapa Industrial de Venezuela para el intercambio de datos permitiendo que compartan información. Crear reportes y procesos ETL de actualización (Extract, Transform and Load: Extraer, transformar y cargar, frecuentemente abreviado a ETL) en PENTAHO",
+        "highlights": [
+          "Started the company"
+        ]
+      },
+      {
+        "name": "Corporación Amagi Tech",
+        "position": "Líder de Desarrollo",
+        "url": "https://company.com",
+        "startDate": "05-01-2008",
+        "endDate": "03-01-2013",
+        "summary": "Banplus Internet Banking: codicación de las páginas del internet banking, dicho sistema cuanta con código en NET Framework 3.5, C# y BD SQL Server 2005, aparte de javascript y ajax, llamadas a Web Services y llamadas al CORE Bancario por medio de capas",
+        "highlights": [
+          "Started the company"
+        ]
+      },
+      {
+        "name": "Centro Integral de Formación Profesional C.A (CIFPCA)",
+        "position": "Instructor",
+        "url": "https://company.com",
+        "startDate": "10-01-2007",
+        "endDate": "04-01-2008",
+        "summary": "Cursos de Computación y Programación",
+        "highlights": [
+          "Started the company"
+        ]
+      },
+      {
+        "name": "Facultad de Ingeniería, Escuela de Ingeniería Mecánica de la Universidad de los Andes",
+        "position": "Pasantías, Desarrollador",
+        "url": "https://company.com",
+        "startDate": "01-01-2006",
+        "endDate": "06-01-2006",
+        "summary": "Reestructurar el sistema de información para el cálculo de Ciclos Teóricos del laboratorio de Conversión de Energía de la Escuela de Ingeniería Mecánica de la Universidad de los Andes, a través del análisis del sistema existente, orientado al mejoramiento en el procesamiento de datos.",
+        "highlights": [
+          "Started the company"
+        ]
+      }
+    ],
+    "volunteer": [{
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": [
+        "Awarded 'Volunteer of the Month'"
+      ]
+    }],
+    "education": [
+      {
+        "institution": "Platzi",
+        "url": "https://platzi.com/",
+        "area": "React Native",
+        "studyType": "Bachelor",
+        "startDate": "09-01-2019",
+        "endDate": null,
+        "score": "4.0",
+        "courses": [
+          "Desarrollar apps nativas iOS y Android usando Javascript"
+        ]
+      },
+      {
+        "institution": "Platzi",
+        "url": "https://platzi.com/",
+        "area": "Vuejs",
+        "studyType": "Bachelor",
+        "startDate": "09-01-2018",
+        "endDate": null,
+        "score": "4.0",
+        "courses": [
+          "Manipular el DOM utilizando las directivas de Vue.js",
+          "Dominar el sistema de componentes devue.js",
+          "Desarrollar proyectos grandes de manera rápida."
+        ]
+      },
+      {
+        "institution": "Microsoft",
+        "url": "",
+        "area": "Microsoft Certied Professional (MCP)",
+        "studyType": "Bachelor",
+        "startDate": "01-01-2013",
+        "endDate": null,
+        "score": "4.0",
+        "courses": [
+          "Programing in HTML5 whit JavaScript and CSS3"
+        ]
+      },
+      {
+        "institution": "Amagi Tech",
+        "url": "",
+        "area": "Proyectos",
+        "studyType": "Bachelor",
+        "startDate": "01-01-2012",
+        "endDate": null,
+        "score": "4.0",
+        "courses": [
+          "Alcance, Planicación y Gestión de Proyectos"
+        ]
+      },
+      {
+        "institution": "Instituto de Capacitación Profesional Simón Bolívar",
+        "url": "",
+        "area": "Redes",
+        "studyType": "Bachelor",
+        "startDate": "01-01-2017",
+        "endDate": null,
+        "score": "4.0",
+        "courses": [
+          "Técnico Especialista en Redes"
+        ]
+      },
+      {
+        "institution": "Instituto Universitario de Tecnología Dr. Cristóbal Mendoza",
+        "url": "",
+        "area": "Informática",
+        "studyType": "Bachelor",
+        "startDate": "01-01-2003",
+        "endDate": "01-01-2006",
+        "score": "4.0",
+        "courses": [
+          "T.S.U en Informática"
+        ]
+      }
+    ],
+    "awards": [{
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }],
+    "certificates": [{
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }],
+    "publications": [{
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }],
+    "skills": [{
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    }],
+    "languages": [{
+      "language": "English",
+      "fluency": "Native speaker"
+    }],
+    "interests": [{
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }],
+    "references": [{
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }],
+    "projects": [{
+      "name": "Project",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Description...",
+      "highlights": [
+        "Won award at AIHacks 2016"
+      ],
+      "url": "https://project.com/"
+    }]
+  }

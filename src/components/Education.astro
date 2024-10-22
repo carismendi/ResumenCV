@@ -1,0 +1,39 @@
+---
+import { education } from "@cv";
+---
+
+<!-- Education-->
+<section class="resume-section" id="education">
+  <div class="resume-section-content">
+    <h2 class="mb-5">Educación</h2>
+
+    {
+      education.map(({ institution, startDate, endDate, area, courses }) => {
+        const startYear = new Date(startDate).getFullYear();
+        const endYear =
+          endDate != null ? " - " + new Date(endDate).getFullYear() : "";
+
+        const years = `${startYear}${endYear}`;
+
+        return (
+          <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="flex-grow-1">
+              <h3 class="mb-0">{institution}</h3>
+              <div class="subheading mb-3">{area}</div>
+              {
+                courses.map((item)=>{
+                    return(
+                        <div>{item}</div>
+                    )
+                })
+              }
+            </div>
+            <div class="flex-shrink-0">
+              <span class="text-primary">{years}</span>
+            </div>
+          </div>
+        );
+      })
+    }
+  </div>
+</section>

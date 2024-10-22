@@ -1,0 +1,47 @@
+---
+import { basics } from "@cv"
+const { name } = basics
+
+import Image from "astro/components/Image.astro"
+import profile from "@/assets/img/me.webp"
+---
+
+<!-- Navigation-->
+<nav
+  class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
+  id="sideNav"
+>
+  <a class="navbar-brand js-scroll-trigger" href="#page-top">
+    <span class="d-block d-lg-none">{name}</span>
+    <span class="d-none d-lg-block">
+      <Image src={profile} width={1024} height={1024} class="img-fluid img-profile rounded-circle mx-auto mb-2" alt="..."></Image>
+    </span
+    >
+  </a>
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-bs-toggle="collapse"
+    data-bs-target="#navbarResponsive"
+    aria-controls="navbarResponsive"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+    ><span class="navbar-toggler-icon"></span></button
+  >
+  <div class="collapse navbar-collapse" id="navbarResponsive">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="#about">Sobre mi</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="#experience">Experiencia</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="#education">Educación</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="#skills">Competencias</a>
+      </li>
+    </ul>
+  </div>
+</nav>

@@ -1,0 +1,54 @@
+---
+import { basics } from "@cv"
+import type { SocialIcon } from "@/types"
+import GitHub from "@/icons/GitHub.astro";
+import LinkedIn from "@/icons/LinkedIn.astro";
+const { name, label, location, profiles, phone, email, summary } = basics
+const { city, postalCode, region, countryCode } = location
+
+var [firstname, lastName] = name.split(" ");
+
+const SOCIAL_ICONS: SocialIcon = {
+  GitHub,
+  LinkedIn
+}
+
+---
+
+<!-- About-->
+<section class="resume-section" id="about">
+  <div class="resume-section-content">
+    <h1 class="mb-0">
+      {firstname}
+      <span class="text-primary">{lastName}</span>
+    </h1>
+    <div class="subheading">{label}</div>
+    <div class="subheading mb-5">
+      {city} {region} · {countryCode} · {postalCode} · {phone} ·
+      <a href="mailto:cearismendi@gmail.com">{email}</a>
+    </div>
+    <p class="lead mb-5">
+      {summary}
+    </p>
+    <div class="social-icons">
+      {
+        profiles.map(({ network, url }) => {
+          const Icon = SOCIAL_ICONS[network]
+
+          return (
+            <a
+              href={url}
+              title={`Visitar el perfil de ${name} en ${network}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-icon"
+              aria-label={network}
+            >
+              <Icon />
+            </a>
+          )
+        })
+      }
+    </div>
+  </div>
+</section>

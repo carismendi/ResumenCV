@@ -1,0 +1,26 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import Navigation from "@/components/Navigation.astro";
+import About from "@/components/About.astro";
+
+import { basics } from "@cv"
+import Experience from "@/components/Experience.astro";
+import Education from "@/components/Education.astro";
+import Skills from "@/components/Skills.astro";
+const { name, label } = basics
+
+---
+
+<Layout title={`Portafolio de ${name} - ${label}`}>
+	<Navigation/>
+  <!-- Page Content-->
+  <div class="container-fluid p-0">
+    <About/>
+    <hr class="m-0" />
+    <Experience/>
+    <hr class="m-0" />
+    <Education/>
+    <hr class="m-0" />
+    <Skills/>
+  </div>
+</Layout>
